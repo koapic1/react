@@ -1,4 +1,4 @@
-# JS Basic
+# JS Basic - truthy & falsy, 단락 평가, 객체 자료형
 
 ## truthy & falsy
 
