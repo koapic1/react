@@ -1,0 +1,24 @@
+body {
+  padding: 20px;
+  .App {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+      margin-bottom: 0;
+    }
+    > section {
+      background-color: rgb(245, 245, 245);
+      border: 1px solid rgb(240, 240, 240);
+      border-radius: 5px;
+      padding: 20px;
+      &:last-child > div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+  }
+}
